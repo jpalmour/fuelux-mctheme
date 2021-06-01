@@ -21,7 +21,7 @@
     "node": "4.4.2"
   },
   "scripts": {
-    "setup": "npm install && ./node_modules/.bin/bower install",
+    "setup": "npm install",
     "start": "node www/server.js"
   },
   "dependencies": {
@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "async": "^2.0.0-rc.2",
-    "bower": "^1.7.9",
     "connect": "^3.4.1",
     "directory-colorfy": "^2.0.5",
     "directory-encoder": "^0.8.0",
