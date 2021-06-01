@@ -24,6 +24,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
+    "setup": "npm install && ./node_modules/.bin/bower install",
     "start": "node www/server.js"
   },
   "dependencies": {
